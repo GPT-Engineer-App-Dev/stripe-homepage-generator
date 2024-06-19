@@ -1,4 +1,5 @@
 import { Container, Text, VStack, Box, Heading, Button, Flex, Image } from "@chakra-ui/react";
+import StripeLogo from "../../public/stripe-logo.svg";
 import { FaRocket, FaCreditCard, FaShieldAlt, FaUsers } from "react-icons/fa";
 
 const Index = () => {
@@ -6,6 +7,7 @@ const Index = () => {
     <Container maxW="container.xl" p={4}>
       <VStack spacing={8} align="stretch">
         <Box textAlign="center" py={10} bg="gray.50" borderRadius="md">
+          <Image src={StripeLogo} alt="Stripe Logo" mb={4} />
           <Heading as="h1" size="2xl" mb={4}>
             Welcome to Stripe
           </Heading>
