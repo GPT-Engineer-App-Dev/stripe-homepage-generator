@@ -4,7 +4,7 @@ import { FaRocket, FaCreditCard, FaShieldAlt, FaUsers } from "react-icons/fa";
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="purple.500">
       <VStack spacing={8} align="stretch">
         <Box textAlign="center" py={10} bg="gray.50" borderRadius="md">
           <Image src={StripeLogo} alt="Stripe Logo" mb={4} />
